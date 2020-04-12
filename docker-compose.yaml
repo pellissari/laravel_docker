@@ -2,7 +2,8 @@ version: "2.3"
 
 services:
   app:
-    build: .
+    #build: .
+    image: andrepellissari/laravel_app
     container_name: app
     volumes:
       - ./laravel:/var/www
